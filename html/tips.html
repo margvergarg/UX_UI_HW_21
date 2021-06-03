@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="stylesheet" href="/CSS/tips.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          </script>
+        <title>How to Seduce Everyone in Stardew Valley</title>
+    </head>
+    <body>
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="/index.html">How to Seduce Everyone in Stardew Valley</a>
+                <a href="/html/start.html">Getting to Know the Candidates</a>
+                <a href="/html/tips.html" class="active">Tips</a>
+                <a href="/html/hobbies.html">Similar Games</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </header>
+        <section class="hero">
+            <h1>
+                Tips for Practicing and Improving
+            </h1>
+        </section>
+        <section class="accordian addMargin">
+          <img src="/Images/Blue_Chicken.png" style="width: 50px;">
+            <button class="accordion">Gift Giving</button>
+              <div class="panel">
+               <p>Krobus is a shadow person and, although he isn't hostile, still refers to other monsters as "his friends". He lives in the sewers and normally isn't seen outside interacting with other villagers. He dislikes dwarves, stating that a 1,000 year war between the dwarves and his people recently ended. He believes if the dwarves knew where he was, they'd send an assassin.
+
+                The Wizard is aware of his presence and intervenes to prevent conflicts.</p>
+              </div>
+
+            <button class="accordion">Answering Questions</button>
+              <div class="panel">
+              <p>The Mutant Bug Lair is an underground location that becomes accessible as part of the Dark Talisman Quest. The entrance to the lair is in the northwest corner of The Sewers.
+
+                The player should be prepared to encounter monsters before entering the Mutant Bug Lair because there are a number of Mutant Grubs and Mutant Flies inside.
+                
+                Even though plants are growing here and fishing is possible, the game considers this location to be underground. Therefore, forageable items and artifact spots never spawn here.</p>
+              </div>
+
+            <button class="accordion">Cutscenes</button>
+              <div class="panel">
+               <p>The Wizard asked me to retrieve the magic ink from his ex-wife's house... but to gain access I'll need a dark talisman. Enter the sewer and ask Krobus about the dark talisman.</p>
+              </div>
+            <button class="accordion">Getting Caught</button>
+              <div class="panel">
+               <p>Pierre's General Store sells various seeds, saplings, fertilizer, ingredients and other useful items. As well as selling those items, Pierre also buys foraged items, crops, artisan goods, cooked dishes, and animal products from the player, which avoids waiting overnight for shipping. Some products in stock, namely seeds, will vary from season to season and others are in-stock year-round. Pierre's main competitor in the valley is JojaMart.
+
+                Pierre's General Store is normally open most days at 9am, three hours after the player wakes up, and closes at 5pm. The player can enter the building until 9pm, but Pierre leaves the sales counter at 5pm every day, so the shop cannot actually be used to purchase or sell goods after 5pm. This is because the building also serves as Pierre's family home.</p>
+              </div>
+        </section>
+        <footer>
+          <h6>Almost none is original content. All paragraphs and imagery were taken off the Stardew Valley Wiki. Content intentionally doesn't match headings</h6>
+        </footer>
+        <script>
+          function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+              x.className += " responsive";
+              } else {
+              x.className = "topnav";
+              }
+          }
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+              to highlight the button that controls the panel */
+              this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+              var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+          });
+          }
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+          </script>
+    </body>
+</html>

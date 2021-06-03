@@ -1,0 +1,52 @@
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+  .accordion {
+    background-color: #D9736A;
+    color: #1D0259;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 2px solid #1D0259;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 3px 5px #1D0259;
+    font-weight: 700;
+    font-size: 48px;
+    border-radius: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #8FD9B6;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 15px 15px;
+    background-color: #1D0259;
+    display: none;
+    overflow: hidden;
+    color: #8BC3D9;
+    border-radius: 15px;
+    box-shadow: 2px 3px 1px #1D0259;
+    height: fit-content;
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+   @media screen and (max-width: 800px) {
+    }
+    .accordion {
+        font-size: 24px;
+    }
+    @media screen and (max-width: 400px) {
+      .accordion{
+        font-size: 20px;
+      }
+    }
